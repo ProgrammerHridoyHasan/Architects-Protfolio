@@ -355,3 +355,51 @@ body{
         display: none;
     }
 }
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .header-contain img{
+        width: 100%;
+    }
+    .features-section{
+        flex-direction: column;
+    }
+    .features-img-container{
+        width: 100%;
+    }
+    .features-img-container > div img{
+        width: 100%;
+    }
+    .features-contain{
+        width: 100%;
+    }
+    .features-info-section{
+        flex-direction: column;
+    }
+    .features-info-contain{
+        width: 100%;
+    }
+    .features-img{
+        width: 100%;
+    }
+    .features-img img{
+        width: 100%;
+    }
+    .experience{
+        margin-top: -60px;
+        margin-left: -40px;
+        width: 200px;
+        height: 100px;
+    }
+    .experience-contain h2{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .facts-container{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .sponspors-logo{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
