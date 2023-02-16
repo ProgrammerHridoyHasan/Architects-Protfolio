@@ -275,6 +275,10 @@ body{
 .hide{
     display: none;
 }
+.architects-section{
+    display: flex;
+    justify-content: center;
+}
 
 /* Responsive layout style */
 
@@ -353,6 +357,9 @@ body{
     }
     .ft-text{
         display: none;
+    }
+    .architects-section img{
+        width: 100%;
     }
 }
 
